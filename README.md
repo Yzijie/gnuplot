@@ -30,15 +30,8 @@
 
 ![images](img/accuracy.png)
 
-`set ylabel “time(s)”`
 
-`unset yrange`
 
-`plot "time.txt" using 1:2 title "delay=2ms" with linespoints,'' using 1:3 title "delay=4ms" with linespoints,'' using 1:4 title "delay=6ms" with linespoints,'' using 1:5 title "delay=8ms" with linespoints,'' using 1:6 title "delay=10ms" with linespoints`
-
-### time
-
-![images](img/time.png)
 
 `set xlabel "split length (packets)"`
 
